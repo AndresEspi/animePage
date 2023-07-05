@@ -1,4 +1,3 @@
-/* stylelint-disable no-descending-specificity */
 @import url("https://fonts.cdnfonts.com/css/cocogoose");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,900&display=swap");
 
@@ -21,12 +20,32 @@ ul {
   background-repeat: no-repeat;
 }
 
+.about-header {
+  display: flex;
+  flex-direction: column;
+  background-image: url("ressources/images/fondo1.1.jpg");
+  background-repeat: no-repeat;
+}
+
 .overlay div {
   display: none;
 }
 
 .cont-button {
   margin: 15px 25px;
+}
+
+.front {
+  margin: 3%;
+  margin-bottom: 13%;
+  font-family: "lato", sans-serif;
+}
+
+.cont-front {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .front h1 {
@@ -48,16 +67,44 @@ ul {
   animation-timing-function: ease-in-out;
   animation-duration: 20s;
   animation-iteration-count: infinite;
+  margin-bottom: 20px;
 }
 
 .info-front {
-  border: 5px solid gainsboro;
+  border: 5px solid whitesmoke;
   padding: 20px;
   color: #1b1b1c;
   font-size: 100%;
   font-family: "lato", sans-serif;
   line-height: 36px;
   margin-bottom: 25px;
+}
+
+.about-info-front {
+  border: 2px solid white;
+  padding: 30px 20px;
+  color: #1b1b1c;
+  font-size: 100%;
+  font-family: "lato", sans-serif;
+  line-height: 36px;
+  margin: 40px 0;
+  background-color: whitesmoke;
+}
+
+.about-info-mail {
+  width: 75%;
+  color: #1b1b1c;
+  font-size: 100%;
+  font-family: "lato", sans-serif;
+  line-height: 36px;
+  margin-bottom: 0.5%;
+}
+
+.about-mail {
+  color: #5f5f5f;
+  font-size: 15px;
+  font-family: "lato", sans-serif;
+  text-decoration-line: underline;
 }
 
 .front h3 {
@@ -94,6 +141,14 @@ ul {
   justify-content: center;
   margin: 0 auto;
   margin-bottom: 60px;
+  border: 1px solid red;
+}
+
+.about-line {
+  display: flex;
+  width: 30px;
+  justify-content: center;
+  margin: 0 auto;
   border: 1px solid red;
 }
 
@@ -173,6 +228,31 @@ ul {
   font-family: "lato", sans-serif;
 }
 
+.about-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+  color: #000;
+  font-size: 14px;
+  font-family: "lato", sans-serif;
+  background-image: url(ressources/images/fondo2.jpg);
+}
+
+.about-section1 p {
+  color: #838383;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.about-footer div p {
+  display: flex;
+  text-align: center;
+  color: #fff;
+}
+
 .menuDisplay {
   display: flex;
   margin-top: 15px;
@@ -186,7 +266,7 @@ ul {
   padding: 10px;
   background-color: #f1f1f1;
   border-radius: 5px;
-  text-align: center;
+  text-align: left;
 }
 
 .single-speaker .photo {
@@ -215,7 +295,7 @@ ul {
 }
 
 .single-speaker .info {
-  margin-top: 10px;
+  margin: 10px;
 }
 
 .single-speaker h3 {
@@ -228,14 +308,12 @@ ul {
 }
 
 .single-speaker hr {
-  margin: 10px auto;
-  width: 50%;
+  float: left;
+  margin: 10px 0;
+  margin-right: 10%;
+  width: 10%;
   border: none;
   border-top: 1px solid #ccc;
-}
-
-.single-speaker p {
-  margin: 0;
 }
 
 .section2 {
@@ -249,6 +327,95 @@ ul#new-animes {
   justify-content: center;
   align-items: center;
   padding: 30px;
+}
+
+.about-section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "lato", sans-serif;
+}
+
+.about-section1 h2 {
+  display: flex;
+  text-align: center;
+  color: #2c2c2c;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  margin-top: 25px;
+  padding: 10px;
+}
+
+.about-section1 a {
+  display: flex;
+  border: 3px solid whitesmoke;
+  padding: 5% 15%;
+  margin: 30px;
+}
+
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 30px;
+}
+
+.cont div {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont1 {
+  background-image: linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)), url(ressources/images/fondo3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 200px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont1,
+.cont2 h3 {
+  color: white;
+  font-size: 50px;
+}
+
+.cont .cont1 p {
+  color: white;
+  font-size: 20px;
+}
+
+.cont .cont2 p {
+  color: white;
+  font-size: 20px;
+}
+
+.cont2 {
+  background-image: linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)), url(ressources/images/fondo4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 200px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 767px) {
@@ -270,7 +437,7 @@ ul#new-animes {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Agregar sombra al botón */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
 
   .black-toolbar {
@@ -327,10 +494,11 @@ ul#new-animes {
 
   .close-button {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    right: 20px;
     background-color: transparent;
-    border: none;
     cursor: pointer;
   }
 
@@ -352,13 +520,6 @@ ul#new-animes {
     font-size: 300%;
     color: white;
     text-decoration: none;
-  }
-
-  .front {
-    display: flex;
-    margin: 2%;
-    margin-bottom: 13%;
-    font-family: "lato", sans-serif;
   }
 
   .card-container {
@@ -409,6 +570,10 @@ ul#new-animes {
   .button-section2 .img {
     margin: 10px;
     width: 12px;
+  }
+
+  .about-section1 p {
+    padding: 15px 3%;
   }
 }
 
@@ -464,6 +629,7 @@ ul#new-animes {
     background-color: #fff;
     display: flex;
     justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
 
   .logo {
@@ -508,8 +674,7 @@ ul#new-animes {
   }
 
   .front {
-    margin: 10%;
-    font-family: "lato", sans-serif;
+    margin: 7%;
   }
 
   .card-container {
@@ -559,5 +724,17 @@ ul#new-animes {
 
   .footer p {
     padding: 16px 0;
+  }
+
+  .about-section1 p {
+    padding: 15px 10%;
+  }
+
+  .about-footer div p {
+    padding: 16px 0;
+  }
+
+  .about-section1 a img {
+    width: 310px;
   }
 }
