@@ -137,6 +137,7 @@ I would like to thank .....
 - **My coding partners**
 - **My morning session teammates**
 - **My Standup session teammates**
+- **Cindy Shin, whose design inspired this project.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
