@@ -256,7 +256,6 @@ ul {
   color: #000;
   font-size: 14px;
   font-family: "lato", sans-serif;
-  background-image: url(ressources/images/fondo2.jpg);
 }
 
 .about-section1 p {
@@ -271,7 +270,7 @@ ul {
 .about-footer div p {
   display: flex;
   text-align: center;
-  color: #fff;
+  color: #000;
 }
 
 .menuDisplay {
@@ -348,7 +347,7 @@ ul#new-animes {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 30px 80px;
+  padding: 30px 10%;
 }
 
 .about-section1 {
@@ -757,5 +756,9 @@ ul#new-animes {
 
   .about-section1 a img {
     width: 310px;
+  }
+
+  ul#new-animes {
+    padding: 30px 20%;
   }
 }

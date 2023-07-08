@@ -32,9 +32,11 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Key Future <a name="key-future"></a>
+### Key Futures <a name="key-futures"></a>
 
 - **The pertinent corrections requested by the reviewer will be added**
+- **New award-winning anime**
+- **More anime characters**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
