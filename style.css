@@ -279,14 +279,21 @@ ul {
   margin-bottom: 15px;
 }
 
+.cont-animes {
+  padding: 0 15%;
+}
+
 .single-speaker {
   display: flex;
-  width: 300px;
+  width: 500px;
+  height: 250px;
   margin: 10px;
   padding: 10px;
   background-color: #f1f1f1;
   border-radius: 5px;
   text-align: left;
+  font-family: "lato", sans-serif;
+  align-items: center;
 }
 
 .single-speaker .photo {
@@ -347,7 +354,7 @@ ul#new-animes {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 30px 10%;
+  padding-bottom: 30px;
 }
 
 .about-section1 {
@@ -756,9 +763,5 @@ ul#new-animes {
 
   .about-section1 a img {
     width: 310px;
-  }
-
-  ul#new-animes {
-    padding: 30px 20%;
   }
 }
