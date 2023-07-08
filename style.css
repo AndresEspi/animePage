@@ -289,7 +289,6 @@ ul {
   height: 250px;
   margin: 10px;
   padding: 10px;
-  background-color: #f1f1f1;
   border-radius: 5px;
   text-align: left;
   font-family: "lato", sans-serif;
@@ -346,7 +345,6 @@ ul {
 
 .section2 {
   text-align: center;
-  background-image: url(ressources/images/fondo1.1.jpg);
 }
 
 ul#new-animes {
